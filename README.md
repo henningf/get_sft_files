@@ -1,5 +1,8 @@
 # Get SFTP files
 
+## About
+A Small python program to fetch files from an sftp server.
+
 ## Project setup
 ```
 pip install -r requirements.txt
