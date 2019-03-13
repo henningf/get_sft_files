@@ -1,4 +1,4 @@
-# blog
+# Get SFTP files
 
 ## Project setup
 ```
