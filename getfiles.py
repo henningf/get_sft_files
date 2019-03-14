@@ -89,7 +89,7 @@ class  Get_ftp_files():
                         remote_file_path = remote_directory + f.filename
                         local_file_path = local_directory + f.filename
                         SFTP_CONNECTION.get(remote_file_path, local_file_path)
-                        logging.info('Downloaded file: %s to location %s', (f.filename, local_directory))
+                        logging.info('Downloaded file: %s to location %s' % (f.filename, local_directory))
                         files_copied += 1
                     except Exception as e:
                         logging.error('Could not download file: %s: %s' % (e.__class__, e))
